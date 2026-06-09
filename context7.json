@@ -1,0 +1,15 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "Omnistudio Omniscripts",
+  "description": "Salesforce Omnistudio Omniscripts — guided UI workflows, elements, actions, best practices. LLM-ready reference docs distilled from official Salesforce Help.",
+  "folders": [],
+  "excludeFolders": [],
+  "excludeFiles": [],
+  "rules": [
+    "Use Omniscripts for guided user-facing workflows (forms, wizards), not for backend-only orchestration.",
+    "For backend orchestration use Integration Procedures instead.",
+    "Always preview and test Omniscripts before activation.",
+    "Use Data Mapper actions to read/write Salesforce data, not direct DML.",
+    "For complex UI customization, prefer custom LWC over heavy CSS overrides."
+  ]
+}
